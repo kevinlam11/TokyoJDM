@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: sticky;
 }
+
 .bg2 {
   background-image: url(assets2/BG2.jpg);
   background-repeat: no-repeat;
@@ -23,6 +24,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .bg3 {
   background-image: url(assets2/BG3.jpg);
   background-repeat: no-repeat;
@@ -167,24 +169,29 @@ body {
   width: 90%;
   padding: 20px;
 }
+
 .product {
   padding: 10px;
   background-color: grey;
   grid-column: auto;
 }
+
 .product img {
   width: 100%;
   height: 63%;
 }
+
 .product .title {
   font-weight: bolder;
   font-size: 1.5rem;
   text-align: center;
 }
+
 .product .description {
   padding: 20px 20px 20px 20px;
   line-height: 22px;
 }
+
 .product .price {
   text-align: center;
   font-weight: 600;
@@ -193,6 +200,7 @@ body {
   font-family: sans-serif;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+
 .product .cart {
   text-align: center;
   padding: 15px 0;
@@ -202,6 +210,7 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+
 .product .cart i {
   padding-left: 10px;
 }
@@ -274,6 +283,7 @@ button {
   justify-content: space-around;
   align-items: center;
 }
+
 /*Footer Left*/
 .footer h2 {
   color: #ffffff;
@@ -314,6 +324,7 @@ button {
   color: #ffffff;
   font-size: 15px;
 }
+
 .footericons {
   display: flex;
   justify-content: space-between;
@@ -325,6 +336,7 @@ button {
     background-size: contain;
     height: 40%;
   }
+
   #slides {
     position: relative;
     height: 50%;
@@ -332,22 +344,27 @@ button {
     padding: 0px;
     margin: 0px;
   }
+
   .slide {
     margin-top: 30%;
     object-fit: contain;
     height: 200%;
   }
+
   .p {
     margin-left: 50%;
     padding: 1rem;
     font-size: 1.1rem;
   }
+
   .footer img {
     width: 50%;
   }
+
   .products {
     display: block;
   }
+
   .product .description {
     padding: 0px;
   }
@@ -362,10 +379,12 @@ button {
   .link {
     width: 40%;
   }
+
   .hero {
     margin: 1%;
     width: 40%;
   }
+
   .link a {
     padding: 15px;
     list-style: none;
@@ -385,6 +404,7 @@ button {
     width: 100%;
     bottom: 15%;
   }
+
   .slide {
     background-size: cover;
   }
@@ -397,16 +417,20 @@ button {
     flex-wrap: wrap;
     font-size: 80%;
   }
+
   .footer {
     flex-wrap: wrap;
     position: relative;
   }
+
   .footerabout {
     display: none;
   }
+
   .footerright {
     display: table;
   }
+
   .footer img {
     width: 40px;
     padding: 20px;
@@ -415,15 +439,18 @@ button {
   .productslide {
     height: 30%;
   }
+
   .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     grid-gap: 50px;
     margin: 0;
   }
+
   .product img {
     height: 57%;
   }
+
   .product .cart {
     text-align: center;
     padding: 15px 0;
@@ -434,6 +461,7 @@ button {
     line-height: 0;
     font-size: 10px;
   }
+
   .price {
     margin: 0;
   }
@@ -443,6 +471,7 @@ button {
     margin-left: 15%;
     align-items: center;
   }
+
   .btn {
     margin: auto;
   }
@@ -455,6 +484,7 @@ button {
     height: auto;
     width: auto;
   }
+
   .signup {
     display: grid;
     grid-template-columns: 1fr;
