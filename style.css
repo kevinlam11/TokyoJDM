@@ -5,7 +5,7 @@ body {
   font-family: "Chivo Mono", monospace;
 }
 
-/*BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG  */
+/*BACKGROUND IMG*/
 .bg1 {
   background-image: url(assets2/A.jpg);
   height: 100%;
@@ -33,7 +33,7 @@ body {
   width: 100%;
 }
 
-/* NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR */
+/*NAVBAR*/
 .navbar {
   top: 0;
   position: sticky;
@@ -64,7 +64,7 @@ body {
   font-weight: bold;
 }
 
-/*   INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX */
+/*   INDEX SLIDES */
 
 #slides {
   position: relative;
@@ -76,17 +76,15 @@ body {
 
 .slide {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
   z-index: 1;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
+
   transition: opacity 1s;
 }
 
@@ -118,7 +116,7 @@ body {
   background-image: url(assets2/E.jpeg);
 }
 
-/*  INTRO SECTION INTRO SECTION INTRO SECTION INTRO SECTION  */
+/* INTRO SECTION */
 
 .main {
   background-color: black;
@@ -147,7 +145,7 @@ body {
   height: 100%;
 }
 
-/* PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT */
+/* PRODUCT*/
 /* VIDEO */
 .productSlide {
   margin: 6% 0 0 0;
@@ -208,7 +206,7 @@ body {
   padding-left: 10px;
 }
 
-/* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT  */
+/* CONTACT */
 .form {
   background: #e6e6e6;
   border-radius: 10px;
@@ -227,9 +225,9 @@ button {
   color: #5a5a6e;
 }
 
-/* SIGNINSIGNIN SIGNINSIGNINSIGNIN SIGNINSIGNINSIGNIN SIGNINSIGNIN*/
+/* SIGNINSIGNIN*/
 
-.signUp {
+.signup {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
@@ -269,7 +267,7 @@ button {
   cursor: pointer;
 }
 
-/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  */
+/* FOOTER */
 .footer {
   background-color: rgb(41, 44, 47);
   position: relative;
@@ -284,12 +282,12 @@ button {
 }
 
 /* Footer links */
-.footer .footerLinks {
+.footer .footerlinks {
   color: #5383d3;
   padding: 0;
 }
 
-.footer .footerLinks a {
+.footer .footerlinks a {
   display: block;
   margin: 10%;
   text-decoration: none;
@@ -297,35 +295,36 @@ button {
 }
 
 /* Footer Center */
-.footer .footerCenter {
+.footer .footercenter {
   font-size: 25px;
   text-align: center;
   margin-bottom: 1%;
 }
 
-.footer .footerCenter p {
+.footer .footercenter p {
   color: #ffffff;
   margin: 0;
 }
 
 /* Footer Right */
-.footer .footerRight {
+.footer .footerright {
   width: 20%;
 }
 
-.footer .footerAbout {
+.footer .footerabout {
   color: #ffffff;
   font-size: 15px;
 }
-.footerIcons {
+.footericons {
   display: flex;
   justify-content: space-between;
 }
 
-/* MEDIA QUERY  MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY (max-width: 448px)*/
+/*MEDIA QUERY*/
 @media (max-width: 840px) {
   .bg1 {
     background-size: contain;
+    height: 40%;
   }
   #slides {
     position: relative;
@@ -403,10 +402,10 @@ button {
     flex-wrap: wrap;
     position: relative;
   }
-  .footerAbout {
+  .footerabout {
     display: none;
   }
-  .footerRight {
+  .footerright {
     display: table;
   }
   .footer img {
@@ -457,7 +456,7 @@ button {
     height: auto;
     width: auto;
   }
-  .signUp {
+  .signup {
     display: grid;
     grid-template-columns: 1fr;
   }
