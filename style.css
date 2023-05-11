@@ -86,7 +86,6 @@ body {
   z-index: 1;
   box-sizing: border-box;
   background-repeat: no-repeat;
-
   transition: opacity 1s;
 }
 
@@ -150,7 +149,7 @@ body {
 /*PRODUCT*/
 /*VIDEO*/
 .productslide {
-  margin: 6% 0 0 0;
+  margin: 6% 0 0;
   height: 78%;
   width: 100%;
   display: flex;
@@ -188,7 +187,7 @@ body {
 }
 
 .product .description {
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   line-height: 22px;
 }
 
