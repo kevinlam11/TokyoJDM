@@ -1,0 +1,464 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Chivo Mono", monospace;
+}
+
+/*BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG BACKGROUND IMG  */
+.bg1 {
+  background-image: url(assets2/A.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+}
+.bg2 {
+  background-image: url(assets2/BG2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.bg3 {
+  background-image: url(assets2/BG3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR  NAVBAR */
+.navbar {
+  top: 0;
+  position: sticky;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  height: 80px;
+  width: 100%;
+}
+
+.hero {
+  margin: 1%;
+  width: 10%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.link a {
+  padding: 20px;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*   INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX SLIDES INDEX */
+
+#slides {
+  position: relative;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+#slides {
+  position: relative;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.slide:nth-of-type(1) {
+  background-image: url(assets2/A.jpeg);
+}
+.slide:nth-of-type(2) {
+  background-image: url(assets2/B.jpeg);
+}
+.slide:nth-of-type(3) {
+  background-image: url(assets2/C.jpeg);
+}
+.slide:nth-of-type(4) {
+  background-image: url(assets2/D.jpeg);
+}
+.slide:nth-of-type(5) {
+  background-image: url(assets2/E.jpeg);
+}
+
+/*  INTRO SECTION INTRO SECTION INTRO SECTION INTRO SECTION  */
+
+.main {
+  background-color: black;
+  background-size: 100%;
+  height: 100%;
+}
+
+.p {
+  justify-content: center;
+  margin-top: -50%;
+  flex-wrap: wrap;
+  margin-left: 51%;
+  opacity: 80%;
+  padding: 1.3rem;
+  font-size: 1.3rem;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Chivo Mono", monospace;
+}
+
+/* VIDEO */
+.video {
+  background-size: 100vw;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT PRODUCT */
+/* VIDEO */
+.productSlide {
+  margin: 6% 0 0 0;
+  height: 78%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  grid-column: 0px;
+  margin: 100px auto;
+  width: 90%;
+  padding: 20px;
+}
+.product {
+  padding: 10px;
+  background-color: grey;
+  grid-column: auto;
+}
+.product img {
+  width: 100%;
+  height: 63%;
+}
+.product .title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.product .description {
+  padding: 20px 20px 20px 20px;
+  line-height: 22px;
+}
+.product .price {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #9b0b03;
+  font-family: sans-serif;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.product .cart {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  background-color: #3e628f;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.product .cart i {
+  padding-left: 10px;
+}
+
+/* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT  */
+.form {
+  background: #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+}
+h2 {
+  padding-bottom: 10px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  color: #5a5a6e;
+}
+
+/* SIGNINSIGNIN SIGNINSIGNINSIGNIN SIGNINSIGNINSIGNIN SIGNINSIGNIN*/
+
+.signUp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.form {
+  position: relative;
+  background-color: #fff;
+  width: 50%;
+  padding: 45px;
+  text-align: center;
+}
+
+.main-text {
+  font-weight: 100;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px;
+  padding: 15px;
+  outline: 0;
+  border: none;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  background: #e74c3c;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  */
+.footer {
+  background-color: rgb(41, 44, 47);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Footer Left */
+.footer h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Footer links */
+.footer .footerLinks {
+  color: #5383d3;
+  padding: 0;
+}
+
+.footer .footerLinks a {
+  display: block;
+  margin: 10%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer Center */
+.footer .footerCenter {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.footer .footerCenter p {
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Footer Right */
+.footer .footerRight {
+  width: 20%;
+}
+
+.footer .footerAbout {
+  color: #ffffff;
+  font-size: 15px;
+}
+.footerIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MEDIA QUERY  MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY (max-width: 448px)*/
+@media (max-width: 840px) {
+  .bg1 {
+    background-size: contain;
+  }
+  #slides {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .slide {
+    margin-top: 30%;
+    object-fit: contain;
+    height: 200%;
+  }
+  .p {
+    margin-left: 50%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer img {
+    width: 50%;
+  }
+  .products {
+    display: block;
+  }
+  .product .description {
+    padding: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .bg1 {
+    height: 27%;
+    width: 100%;
+  }
+
+  .link {
+    width: 40%;
+  }
+  .hero {
+    margin: 1%;
+    width: 40%;
+  }
+  .link a {
+    padding: 15px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  html {
+    margin: 0;
+  }
+
+  #slides {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    bottom: 15%;
+  }
+  .slide {
+    background-size: cover;
+  }
+
+  .p {
+    display: flex;
+    position: static;
+    padding: 52% 0;
+    margin: 0;
+    flex-wrap: wrap;
+    font-size: 80%;
+  }
+  .footer {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .footerAbout {
+    display: none;
+  }
+  .footerRight {
+    display: table;
+  }
+  .footer img {
+    width: 40px;
+    padding: 20px;
+  }
+
+  .productSlide {
+    height: 30%;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 50px;
+    margin: 0;
+  }
+  .product img {
+    height: 57%;
+  }
+  .product .cart {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0;
+  }
+
+  .description {
+    line-height: 0;
+    font-size: 10px;
+  }
+  .price {
+    margin: 0;
+  }
+
+  .contact {
+    display: flexbox;
+    margin-left: 15%;
+    align-items: center;
+  }
+  .btn {
+    margin: auto;
+  }
+
+  .form {
+    width: 250px;
+  }
+
+  .contactMe {
+    height: auto;
+    width: auto;
+  }
+  .signUp {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

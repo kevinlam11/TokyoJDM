@@ -1,0 +1,74 @@
+[
+  {
+    "image": "assets2/AA.jpeg",
+    "title": " Nissan R32",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$60,000"
+  },
+  {
+    "image": "assets2/BB.jpeg",
+    "title": " Nissan Fairlady Z",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$50,000"
+  },
+  {
+    "image": "assets2/CC.jpeg",
+    "title": "Porsche 911",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$98,000"
+  },
+  {
+    "image": "assets2/DD.jpeg",
+    "title": "Ferrari F40",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$100,000"
+  },
+  {
+    "image": "assets2/EE.jpeg",
+    "title": "Nissan 180SX",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$42,000"
+  },
+  {
+    "image": "assets2/FF.jpeg",
+    "title": "Honda Type-R",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$35,000"
+  },
+  {
+    "image": "assets2/GG.jpeg",
+    "title": "Subaru WRX",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$40,000"
+  },
+  {
+    "image": "assets2/HH.jpeg",
+    "title": "Mitsubishi Evo",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$39,000"
+  },
+  {
+    "image": "assets2/II.jpeg",
+    "title": "Alfa Romeo GT 1300",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$80,000"
+  },
+  {
+    "image": "assets2/JJ.jpeg",
+    "title": "Ford Mustang GT",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$60,000"
+  },
+  {
+    "image": "assets2/KK.jpeg",
+    "title": "Mazda RX-3SP",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$47,000"
+  },
+  {
+    "image": "assets2/LL.png",
+    "title": "Toyota Supra ",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum quidem ducimus fugit id omnis nam ratione voluptatum molestiae debitis suscipit maxime adipisci atque aspernatur tempore praesentium, reiciendis accusantium. Perferendis?",
+    "price": "$80,000"
+  }
+]
