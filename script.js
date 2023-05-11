@@ -1,21 +1,20 @@
-// First, we’re using querySelectorAll to get the slides from our container.
-// Next, we’re setting a variable to keep track of the current slide.
-// Then we’re creating an interval to show the next slide every two seconds (expressed as 2000 ms).
-// Let’s take a deeper look at what’s happening inside the nextSlide function:
-
-// First, we change the current slide’s class so it’s not showing. The CSS transition handles the fade out automatically.
-// Then we add one to the current slide, but we use the % operator to cycle back to zero if we’ve reached the end of the slides. As a quick reminder, the % operator divides two numbers and spits out the remainder. This is great for cases where you have to do math with cycles like a clock or a calendar. In this case, we have 5 slides, so here’s what happens with each number: 1%5=1, 2%5=2, 3%5=3, 4%5=4, and 5%5=0.
-// Once we have the new slide’s number, we change that slide’s class so that the slide is showing. Once again, our CSS opacity transition handles the fade effect automatically.
 // INDEX SLIDER
+// First, we’re using querySelectorAll to get the slides from our container.
 var slides = document.querySelectorAll("#slides .slide");
+// First, we’re using querySelectorAll to get the slides from our container.
 var currentSlide = 0;
+// Then we’re creating an interval to show the next slide every two seconds (expressed as 2000 ms).
 var slideInterval = setInterval(nextSlide, 2000);
 
 function nextSlide() {
+  // First, we change the current slide’s class so it’s not showing. The CSS transition handles the fade out automatically.
   slides[currentSlide].className = "slide";
+  // Then we add one to the current slide, but we use the % operator to cycle back to zero if we’ve reached the end of the slides. As a quick reminder, the % operator divides two numbers and spits out the remainder. This is great for cases where you have to do math with cycles like a clock or a calendar. In this case, we have 5 slides, so here’s what happens with each number: 1%5=1, 2%5=2, 3%5=3, 4%5=4, and 5%5=0.
   currentSlide = (currentSlide + 1) % slides.length;
+  // Once we have the new slide’s number, we change that slide’s class so that the slide is showing. Once again, our CSS opacity transition handles the fade effect automatically.
   slides[currentSlide].className = "slide showing";
 }
+
 // JSON REQUEST
 let http = new XMLHttpRequest();
 http.open("get", "products.json", true);
