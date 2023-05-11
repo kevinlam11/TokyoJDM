@@ -64,7 +64,7 @@ body {
   font-weight: bold;
 }
 
-/*   INDEX SLIDES */
+/*INDEX SLIDES*/
 
 #slides {
   position: relative;
@@ -116,7 +116,7 @@ body {
   background-image: url(assets2/E.jpeg);
 }
 
-/* INTRO SECTION */
+/*INTRO SECTION*/
 
 .main {
   background-color: black;
@@ -137,7 +137,7 @@ body {
   font-family: "Chivo Mono", monospace;
 }
 
-/* VIDEO */
+/*VIDEO*/
 .video {
   background-size: 100vw;
   position: relative;
@@ -145,9 +145,9 @@ body {
   height: 100%;
 }
 
-/* PRODUCT*/
-/* VIDEO */
-.productSlide {
+/*PRODUCT*/
+/*VIDEO*/
+.productslide {
   margin: 6% 0 0 0;
   height: 78%;
   width: 100%;
@@ -206,7 +206,7 @@ body {
   padding-left: 10px;
 }
 
-/* CONTACT */
+/*CONTACT*/
 .form {
   background: #e6e6e6;
   border-radius: 10px;
@@ -221,11 +221,10 @@ h2 {
 }
 
 button {
-  font-family: "Montserrat", sans-serif;
   color: #5a5a6e;
 }
 
-/* SIGNINSIGNIN*/
+/*SIGNINSIGNIN*/
 
 .signup {
   display: grid;
@@ -267,7 +266,7 @@ button {
   cursor: pointer;
 }
 
-/* FOOTER */
+/*FOOTER*/
 .footer {
   background-color: rgb(41, 44, 47);
   position: relative;
@@ -275,13 +274,13 @@ button {
   justify-content: space-around;
   align-items: center;
 }
-/* Footer Left */
+/*Footer Left*/
 .footer h2 {
   color: #ffffff;
   margin: 0;
 }
 
-/* Footer links */
+/*Footer links*/
 .footer .footerlinks {
   color: #5383d3;
   padding: 0;
@@ -294,7 +293,7 @@ button {
   color: inherit;
 }
 
-/* Footer Center */
+/*Footer Center*/
 .footer .footercenter {
   font-size: 25px;
   text-align: center;
@@ -306,7 +305,7 @@ button {
   margin: 0;
 }
 
-/* Footer Right */
+/*Footer Right*/
 .footer .footerright {
   width: 20%;
 }
@@ -350,7 +349,7 @@ button {
     display: block;
   }
   .product .description {
-    padding: 0;
+    padding: 0px;
   }
 }
 
@@ -413,7 +412,7 @@ button {
     padding: 20px;
   }
 
-  .productSlide {
+  .productslide {
     height: 30%;
   }
   .products {
